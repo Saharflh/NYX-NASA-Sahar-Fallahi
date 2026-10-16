@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYX | NASA Space Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+       <a href="#" class="logo">NYX<span>.</span></a>
+        <p class="header-text">NASA SPACE EXPLORER</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">DISCOVER THE UNIVERSE</p>
+
+            <h1>
+                DISCOVER THE<br>
+                <span>UNSEEN.</span>
+            </h1>
+
+            <p class="hero-description">
+                A new perspective on the universe.
+                Discover breathtaking images captured
+                beyond our world.
+            </p>
+
+            <a href="#explore" class="explore-btn">
+                EXPLORE SPACE &rarr;
+            </a>
+        </section>
+
+        <section id="explore" class="explore-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">
+                        NASA ASTRONOMY PICTURE OF THE DAY
+                    </p>
+                    <h2>THE UNIVERSE, DAILY.</h2>
+                </div>
+            </div>
+
+            <div class="date-selector">
+                <label for="date">SELECT A DATE</label>
+                <input type="date" id="date">
+                <button id="search-btn" type="button">
+                    DISCOVER
+                </button>
+            </div>
+
+            <p id="status" role="status" aria-live="polite">
+                Loading today's discovery...
+            </p>
+
+            <article class="space-card">
+                <div id="image-container"></div>
+
+                <div class="space-info">
+                    <p class="eyebrow">NASA / APOD</p>
+                    <h3 id="picture-title"></h3>
+                    <p id="picture-date"></p>
+                    <p id="picture-description"></p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>NYX © 2026</p>
+        <p>Powered by NASA Open APIs</p>
+    </footer>
+</body>
+</html>
