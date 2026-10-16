@@ -1,7 +1,6 @@
 // NASA Astronomy API
 // NASA API key dosenot change the pic//
 
-const apiKey = "8TEfQCY5cLhlc9YyFY2WfMQyrXC54OiOor6mje0m";
 const apiUrl = "https://api.nasa.gov/planetary/apod";
 
 const dateInput = document.querySelector("#date");
